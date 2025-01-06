@@ -9,7 +9,7 @@ collection = db['product_view']
 
 consumer_conf = {
     'bootstrap.servers': 'localhost:9194',
-    'group.id': 'my_consumer_group',
+    'group.id': groupid,
     'auto.offset.reset': 'earliest'
 }
 
