@@ -3,12 +3,12 @@ import json
 
 
 consumer_conf = {
-    'bootstrap.servers': '113.160.15.232:9094,113.160.15.232:9194,113.160.15.232:9294',
+    'bootstrap.servers': IP_SERVER,
     'security.protocol': 'SASL_PLAINTEXT',
     'sasl.mechanism': 'PLAIN',
-    'sasl.username': 'kafka',
-    'sasl.password': 'UnigapKafka@2024',
-    'group.id': 'my_consumer_group',
+    'sasl.username': USERNAME,
+    'sasl.password': PASS,
+    'group.id': groupid,
     'auto.offset.reset': 'earliest'
 }
 
